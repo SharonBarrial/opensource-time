@@ -1,0 +1,25 @@
+<!-- Create and Edit Form -->
+<h2>{{ editMode ? 'Edit Student' : 'ds Student' }}</h2>
+<div class="form-section">
+  <form (submit)="onSubmit()" #studentForm='ngForm' class="form-row">
+    <mat-form-field>
+      <input matInput placeholder="title" name="title" required [(ngModel)]="offer.title">
+    </mat-form-field>
+    <mat-form-field id="age-form-field">
+      <input matInput type="title" placeholder="description" name="description" required [(ngModel)]="offer.description">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="points" name="points" required [(ngModel)]="offer.points">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="businessId" name="businessId" required [(ngModel)]="offer.businessId ">
+    </mat-form-field>
+    <ng-container *ngIf="editMode; else elseTemplate">
+      <button mat-raised-button color="primary">Update</button>
+      <button mat-raised-button color="warn" (click)="onCancel()">Cancel</button>
+    </ng-container>
+    <ng-template #elseTemplate>
+      <button mat-raised-button color="primary">Add</button>
+    </ng-template>
+  </form>
+</div>

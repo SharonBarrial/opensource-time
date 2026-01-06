@@ -1,0 +1,88 @@
+{
+  "movies": [
+    {
+      "id": 2,
+      "name": "The Godfather",
+      "image": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+      "duration": "2h 56m",
+      "genre": "Crime/Drama"
+    },
+    {
+      "id": 3,
+      "name": "The Dark Knight",
+      "image": "https://elcomercio.pe/resizer/79c8CZq2Du_cpjMXa7xSsxxDtfs=/620x0/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/3YURMWPMTRBPPLR5EGJJH77YYE.jpg",
+      "duration": "2h 32m",
+      "genre": "Action/Crime"
+    },
+    {
+      "id": 4,
+      "name": "Pride & Prejudice",
+      "image": "data:image/jpeg;base64,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",
+      "duration": "2h 7m",
+      "genre": "Romance/Comedy"
+    },
+    {
+      "id": 5,
+      "name": "Break the Silence: The Movie",
+      "image": "https://i.pinimg.com/564x/ca/04/c4/ca04c45ae9feaec8896e56840944cb66.jpg",
+      "duration": "1h 30m",
+      "genre": "Documentary/Musical"
+    },
+    {
+      "id": 6,
+      "name": "As Above So below",
+      "image": "https://i.pinimg.com/736x/67/11/4e/67114e55a7eaa8e577ed6279467e0815.jpg",
+      "genre": "Horror/Adventure",
+      "duration": "1h 33m"
+    },
+    {
+      "id": 7,
+      "name": "Pelicula 1",
+      "image": "",
+      "duration": "1h 50s",
+      "genre": "Suspense"
+    },
+    {
+      "id": 8,
+      "name": "Pelicula 2",
+      "image": "",
+      "duration": "2h 30s",
+      "genre": "Action"
+    },
+    {
+      "id": 9,
+      "name": "Pelicula 3",
+      "image": "",
+      "duration": "2h 51s",
+      "genre": "Drama"
+    },
+    {
+      "id": 10,
+      "name": "Pelicula 4",
+      "image": "",
+      "duration": "2h",
+      "genre": "Comedy"
+    },
+    {
+      "id": 11,
+      "name": "Pelicula 5",
+      "image": null,
+      "duration": "1h",
+      "genre": "Crime"
+    },
+    {
+      "id": 12,
+      "name": "A",
+      "image": "",
+      "duration": "30m",
+      "genre": "A"
+    },
+    {
+      "id": 13,
+      "name": "Peli",
+      "image": "",
+      "duration": "1h",
+      "genre": "Crime/Drama"
+    }
+  ]
+}

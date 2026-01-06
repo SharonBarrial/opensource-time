@@ -1,0 +1,17 @@
+@if (currentlyMeal?.image){
+<mat-card class="example-card">
+  <mat-card-header>
+
+    <mat-card-title><b>Name: </b> {{currentlyMeal?.name}}</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <img src="{{ currentlyMeal?.image }}" alt="image od recipe" width="200px"/>
+    <p><b>instructions: </b>{{ currentlyMeal?.instructions }}</p>
+    <p><b>ingredient 1: </b>{{ currentlyMeal?.ingredient1 }}</p>
+    <p><b>ingredient 2: </b>{{ currentlyMeal?.ingredient2 }}</p>
+    <p><b>category: </b>{{ currentlyMeal?.category }}</p>
+  </mat-card-content>
+</mat-card>
+}@else {
+  <p>No hay ninguna receta</p>
+}

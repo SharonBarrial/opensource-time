@@ -1,0 +1,112 @@
+{
+    "bundes": [
+        {
+            "id": 1,
+            "title": "Basic Drinkware Set",
+            "description": "A starter set of our temperature-controlled drinkware",
+            "photoUrl": "https://placehold.co/500",
+            "price": 199.99,
+            "rating": 4.5
+        },
+        {
+            "id": 2,
+            "title": "Travel Enthusiast Kit",
+            "description": "Everything you need for temperature-controlled beverages on the go",
+            "photoUrl": "https://placehold.co/500",
+            "price": 299.99,
+            "rating": 4.7
+        }
+    ],
+    "products": [
+        {   
+            "id": 1,
+            "title": "Temperature Control Mug",
+            "description": "Keep your drink perfectly hot or cold",
+            "photoUrl": "https://placehold.co/500",
+            "price": 120.00,
+            "bundleId": 1,
+            "rating": 4.5
+        },
+        {
+            "id": 2,
+            "title": "Travel Mug",
+            "description": "Temperature control for your adventures",
+            "photoUrl": "https://placehold.co/500",
+            "price": 150.00,
+            "bundleId": 1,
+            "rating": 4.6
+        },
+        {
+            "id": 3,
+            "title": "Ceramic Mug",
+            "description": "A stylish way to keep your drinks at the perfect temperature",
+            "photoUrl": "https://placehold.co/500",
+            "price": 130.00,
+            "bundleId": 1,
+            "rating": 4.7
+        },
+        {
+            "id": 4,
+            "title": "Double Wall Glass Mug",
+            "description": "See your beverage's temperature without feeling the heat",
+            "photoUrl": "https://placehold.co/500",
+            "price": 140.00,
+            "bundleId": 1,
+            "rating": 4.5
+        },
+        {
+            "id": 5,
+            "title": "Desktop Warmer Pad",
+            "description": "Keep your drink warm all day with this sleek warmer pad",
+            "photoUrl": "https://placehold.co/500",
+            "price": 45.00,
+            "bundleId": 1,
+            "rating": 4.4
+        },
+        {
+            "id": 6,
+            "title": "Charging Coaster",
+            "description": "Keep your mugs charged anywhere",
+            "photoUrl": "https://placehold.co/500",
+            "price": 40.00,
+            "bundleId": 2,
+            "rating": 4.2
+        },
+        {
+            "id": 7,
+            "title": "Portable Car Charger",
+            "description": "Charge your mug while you drive",
+            "photoUrl": "https://placehold.co/500",
+            "price": 50.00,
+            "bundleId": 2,
+            "rating": 4.3
+        },
+        {
+            "id": 8,
+            "title": "Insulated Travel Flask",
+            "description": "Take your hot or cold beverages anywhere with this insulated flask",
+            "photoUrl": "https://placehold.co/500",
+            "price": 65.00,
+            "bundleId": 2,
+            "rating": 4.5
+        },
+        {
+            "id": 9,
+            "title": "Compact Travel Kettle",
+            "description": "Boil water on the go with our compact travel kettle",
+            "photoUrl": "https://placehold.co/500",
+            "price": 80.00,
+            "bundleId": 2,
+            "rating": 4.6
+        },
+        {
+            "id": 10,
+            "title": "Smart Bottle",
+            "description": "Smart technology in a bottle keeps your drinks at ideal temperatures",
+            "photoUrl": "https://placehold.co/500",
+            "price": 70.00,
+            "bundleId": 2,
+            "rating": 4.8
+        }
+    ]
+}

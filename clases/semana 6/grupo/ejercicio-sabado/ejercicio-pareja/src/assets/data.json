@@ -1,0 +1,53 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "name": "The Shawshank Redemption",
+      "image": "https://m.media-amazon.com/images/M/MV5BNTYxOTYyMzE3NV5BMl5BanBnXkFtZTcwOTMxNDY3Mw@@._V1_.jpg",
+      "duration": "2h 23min",
+      "genre": "Drama"
+    },
+    {
+      "id": "2",
+      "name": "The Godfather",
+      "image": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+      "duration": "2h 56min",
+      "genre": "Crime, Drama"
+    },
+    {
+      "id": "3",
+      "name": "The Dark Knight",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ0NIw4Gcz2nykuZfyVkmMXpna3XNgq79yvZDaOXxckQ&s",
+      "duration": "2h 32min",
+      "genre": "Action, Crime, Drama"
+    },
+    {
+      "id": "4",
+      "name": "Pulp Fiction",
+      "image": "https://m.media-amazon.com/images/S/pv-target-images/dbb9aff6fc5fcd726e2c19c07f165d40aa7716d1dee8974aae8a0dad9128d392.jpg",
+      "duration": "2h 34min",
+      "genre": "Crime, Drama"
+    },
+    {
+      "id": "5",
+      "name": "Fight Club",
+      "image": "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+      "duration": "2h 19min",
+      "genre": "Drama"
+    },
+    {
+      "id": "6",
+      "name": "Inception",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
+      "duration": "2h 28min",
+      "genre": "Action, Adventure, Sci-Fi"
+    },
+    {
+      "id": "7",
+      "name": "Interstellar",
+      "image": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+      "duration": "2h 49min",
+      "genre": "Adventure, Drama, Sci-Fi"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+<div class="table-wrapper">
+  <h1>Participants</h1>
+  <div class="h2">
+  <h2>Add new Offer</h2>    <button mat-fab extended class="button" (click)="addNewOffer()">add <mat-icon>add_to_photos</mat-icon>
+  </button>
+  </div>
+  <table mat-table [dataSource]="dataSource" class="mat-elevation-z8" matSort>
+
+    <ng-container matColumnDef="id">
+      <th *matHeaderCellDef mat-header-cell mat-sort-header> #Id</th>
+      <td *matCellDef="let element" mat-cell>{{ element.id }}</td>
+    </ng-container>
+    <ng-container matColumnDef="title">
+      <th *matHeaderCellDef mat-header-cell mat-sort-header>title</th>
+      <td *matCellDef="let element" mat-cell>{{ element.title}}</td>
+    </ng-container>
+    <ng-container matColumnDef="description">
+      <th *matHeaderCellDef mat-header-cell mat-sort-header>description</th>
+      <td *matCellDef="let element" mat-cell>{{ element.description }}</td>
+    </ng-container>
+    <ng-container matColumnDef="businessId">
+      <th *matHeaderCellDef mat-header-cell mat-sort-header>businessId</th>
+      <td *matCellDef="let element" mat-cell>{{ element.businessId }}</td>
+    </ng-container>
+    <ng-container matColumnDef="points">
+      <th *matHeaderCellDef mat-header-cell mat-sort-header>points</th>
+      <td *matCellDef="let element" mat-cell>{{ element.points }}</td>
+    </ng-container>
+    <ng-container matColumnDef="actions">
+      <th *matHeaderCellDef mat-header-cell> Actions</th>
+      <td *matCellDef="let element" mat-cell>
+        <a  href="javascript:void(0)"><mat-icon class="holi" (click)="seeIdPublication(element.id)">edit</mat-icon></a>
+        <a (click)="onDeleteItem(element)" href="javascript:void(0)"><mat-icon class="holi">delete</mat-icon></a>
+      </td>
+    </ng-container>
+    <tr *matHeaderRowDef="displayedColumns" mat-header-row></tr>
+    <tr *matRowDef="let row; columns:displayedColumns" [ngClass]="{'editable-row': offersData.id === row.id }" mat-row></tr>
+  </table>
+  <mat-paginator [pageSizeOptions]="[5, 10, 15]" [pageSize]="5" showFirstLastButtons></mat-paginator>
+
+</div>
