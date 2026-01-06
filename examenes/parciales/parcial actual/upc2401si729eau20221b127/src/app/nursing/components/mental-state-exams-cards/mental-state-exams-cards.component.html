@@ -1,0 +1,32 @@
+<div class="card-container" aria-label="The cards container">
+  @for(exam of exams; track exam){
+    <mat-card>
+      <div class="card-manager" aria-label="The card manager">
+        <img src="{{exam.photoUrl}}" alt="Photo of {{exam.patientName}}" aria-label="The patient image" width="200">
+        <mat-card-content>
+          <strong>Patient Name: </strong>
+          {{exam.patientName}}
+        </mat-card-content>
+        <mat-card-content>
+          <strong>Born Date: </strong>
+          {{exam.bornDate}}
+        </mat-card-content>
+        <mat-card-content>
+          <strong>Exam Date: </strong>
+          {{exam.examDate}}
+        </mat-card-content>
+        <mat-card-content>
+          <strong>Examiner Name: </strong>
+          {{exam.examinerName}}
+        </mat-card-content>
+        <mat-card-content>
+          <strong>Examiner National Provider Identifier: </strong>
+          {{exam.nationalProviderIdentifier}}
+        </mat-card-content>
+        <mat-card-content class="totalScore">
+          <strong>Total Score: {{exam.totalScore}}</strong>
+        </mat-card-content>
+      </div>
+    </mat-card>
+  }
+</div>

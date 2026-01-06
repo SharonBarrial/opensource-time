@@ -1,0 +1,13 @@
+.home-page-hero{
+  background-image: url("../../../../assets/images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+
+.home-page-summary{
+  text-align: center;
+  color:whitesmoke;
+  padding: 3rem;
+  background-color: black;
+}

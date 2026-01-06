@@ -1,0 +1,6 @@
+<h1 style="text-align: center">All jokes information</h1>
+<div class="grid-cards">
+  @for(category of categories;track category){
+    <app-jokes-card [category]="category"/>
+  }
+</div>

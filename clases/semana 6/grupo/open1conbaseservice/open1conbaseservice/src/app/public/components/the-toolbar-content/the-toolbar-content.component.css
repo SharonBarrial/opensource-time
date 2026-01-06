@@ -1,0 +1,24 @@
+.example-spacer{
+  flex: 1 1 auto;
+}
+
+.name-cine{
+  font-weight: bold;
+  font-family: 'Roboto Thin', sans-serif;
+}
+
+.button-container button{
+  color: white;
+  text-align: center;
+}
+
+.mat-toolbar{
+  color: #e8e8e8;
+  justify-content: center;
+  background: linear-gradient(to right, #3951A7, #9668B6 50%, #802C52);
+}
+
+.button {
+  border-radius: 40px;
+  box-shadow: black 1px 1px 5px;
+}

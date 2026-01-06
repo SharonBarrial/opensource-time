@@ -1,0 +1,30 @@
+package com.acme.center.platform.shared.infrastructure.documentation.openapi.cofiguration;
+
+import io.swagger.v3.oas.models.ExternalDocumentation;
+import io.swagger.v3.oas.models.OpenAPI;
+import io.swagger.v3.oas.models.info.Info;
+import io.swagger.v3.oas.models.info.License;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class OpenApiConfiguration {
+    @Bean
+    public OpenAPI learningPlatformOpenApi() {
+        var openApi = new OpenAPI();
+
+        openApi
+                .info(new Info()
+                        .title("ACME Learning Platform API")
+                        .description("ACME Learning Platform APPLICATION REST API DOCUMENTATION")
+                        .version("v0.0.1")
+                        .license(new License().name("Apache 2.0")
+                                .url("http://springdoc.org")))
+                .externalDocs(new ExternalDocumentation()
+                        .description("ACME Learning Platform wiki Documentation")
+                        .url("acme-learning-platform.wiki.github.io/docs"));
+
+        return openApi;
+    }
+
+}
