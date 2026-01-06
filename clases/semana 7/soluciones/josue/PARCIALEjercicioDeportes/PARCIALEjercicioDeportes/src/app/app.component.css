@@ -1,7 +1,0 @@
-.mat-spacer {
-  flex: 1 1 auto;
-}
-/* Aplica el fondo al componente app.component excluyendo app-toolbar */
-.components-container{
-  background-color: beige;
-}

@@ -1,6 +1,0 @@
-@si730ebu20221c936_HostAddress = http://localhost:5114
-
-GET {{si730ebu20221c936_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
