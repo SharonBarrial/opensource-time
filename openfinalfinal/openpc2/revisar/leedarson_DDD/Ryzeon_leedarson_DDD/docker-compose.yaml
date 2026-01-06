@@ -1,0 +1,10 @@
+services:
+  app_mysql:
+    image: 'mysql:latest'
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_PASSWORD: password
+      MYSQL_DATABASE: leedarson
+    ports:
+      - "3306:3306"
+    restart: always
