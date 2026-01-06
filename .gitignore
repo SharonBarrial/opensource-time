@@ -1,1 +1,9 @@
+# Ignorar repositorios git internos
 **/.git
+
+# Ignorar carpetas comunes innecesarias
+bin/
+obj/
+node_modules/
+.vscode/
+.idea/
