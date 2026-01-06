@@ -1,0 +1,6 @@
+@HIGN_HostAddress = http://localhost:5211
+
+GET {{HIGN_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

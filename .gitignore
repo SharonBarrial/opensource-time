@@ -1,7 +1,4 @@
-# Ignorar repositorios git internos
-**/.git
-
-# Ignorar carpetas comunes innecesarias
+# Carpetas comunes a ignorar
 bin/
 obj/
 node_modules/
